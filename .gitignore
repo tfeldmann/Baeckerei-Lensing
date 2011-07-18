@@ -1,6 +1,6 @@
 # Concrete 5
-config/site.php
-files/cache/*
+*/config/site.php
+*/files/cache/*
 
 # TextMate
 *.tmproj
