@@ -15,14 +15,14 @@
         		$suche->setBlockLimit(1);
         		$suche->display($c);
         	?>
-			</div>
+		   </div>
 			
 			<?php
    			$navigation = new Area('Navigation');
-				$navigation->setBlockLimit(1);
+   			$navigation->setBlockLimit(1);
    			$navigation->display($c);
-			?>
-			
+   		?>
+   		
 		</div>
 		
 		<div id="content">
