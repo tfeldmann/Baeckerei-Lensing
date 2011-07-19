@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btVimeo">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="title" type="C" size="255"></field>
+		<field name="videoURL" type="C" size="255"></field>
+		<field name="previewText" type="X"></field>
+		<field name="videoWidth" type="C" size="255"></field>
+		<field name="videoHeight" type="C" size="255"></field>
+	</table>
+</schema>

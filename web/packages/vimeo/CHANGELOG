@@ -1,0 +1,14 @@
+1.0.3 - Bug Fix to use wmode = transparent so that the video doesn't appear above all other items on the page
+1.0.2 - Not really any changes, just updating for the marketplace to get it to recognize a new version
+	Modified the package version number in the controller
+1.0.1 - First major upgrade in forever
+---- Added in block caching in controller for 5.4.1.1
+---- Can now parse both www.vimeo.com and vimeo.com urls
+---- Better checking to make sure that a video id is actually valid before displaying player
+---- Content disabled in edit mode message should now be centered vertically
+---- Template no longer outputs empty H2 and P tags if title or preview text are blank,
+	instead it will output nothing if it is blank, and wrap in H2 and P tags if set
+---- No longer auto-fills "My Video Title" or whatever it was doing
+---- Removed unused references to guestbook/comments, no longer have any plans to implement
+	comments on videos, kind of forgot that was even ever an idea :)
+1.0 - Initial Release

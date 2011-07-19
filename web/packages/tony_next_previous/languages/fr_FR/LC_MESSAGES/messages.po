@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tony_next_previous 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-07 13:09+0100\n"
+"PO-Revision-Date: 2011-03-07 14:49+0100\n"
+"Last-Translator: cali <cali@concrete5.fr>\n"
+"Language-Team: Concrete5 FR <team@concrete5.fr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: blocks/tony_next_previous/add.php:2
+#: blocks/tony_next_previous/form_setup_html.php:2
+#: blocks/tony_next_previous/edit.php:2
+#: blocks/tony_next_previous/view.php:2
+#: blocks/tony_next_previous/controller.php:3
+#: controller.php:3
+msgid "Access Denied."
+msgstr "Accès refusé."
+
+#: blocks/tony_next_previous/add.php:5
+msgid "Next"
+msgstr "suivant"
+
+#: blocks/tony_next_previous/add.php:6
+msgid "Previous"
+msgstr "Précédent"
+
+#: blocks/tony_next_previous/form_setup_html.php:10
+#: blocks/tony_next_previous/form_setup_html.php:17
+msgid "Next Label"
+msgstr "Etiquette suivante"
+
+#: blocks/tony_next_previous/form_setup_html.php:11
+msgid "Next & Previous Labels"
+msgstr "Etiquette suivante & précédente"
+
+#: blocks/tony_next_previous/form_setup_html.php:12
+msgid "Page Titles"
+msgstr "Titres des pages"
+
+#: blocks/tony_next_previous/form_setup_html.php:22
+msgid "Previous Label"
+msgstr "Etiquette précédente"
+
+#: blocks/tony_next_previous/form_setup_html.php:28
+msgid "Show Arrows"
+msgstr "Afficher les flèches"
+
+#: blocks/tony_next_previous/form_setup_html.php:33
+msgid "Loop"
+msgstr "Boucler"
+
+#: blocks/tony_next_previous/form_setup_html.php:34
+msgid "Return to start/end of page sequence"
+msgstr "Revenir au début/fin de la séquence de la page "
+
+#: blocks/tony_next_previous/form_setup_html.php:38
+msgid "Exclude System Pages"
+msgstr "Exclure les pages système"
+
+#: blocks/tony_next_previous/form_setup_html.php:39
+msgid "yes"
+msgstr "oui"
+
+#: blocks/tony_next_previous/controller.php:17
+#: controller.php:12
+msgid "Navigate through sibling pages."
+msgstr "Naviguer à travers les pages parentes."
+
+#: blocks/tony_next_previous/controller.php:21
+#: controller.php:16
+msgid "Next & Previous"
+msgstr "Suivant & Précédent"
+

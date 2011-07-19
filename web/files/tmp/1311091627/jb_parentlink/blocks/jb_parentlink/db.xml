@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btJbParentlink">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="prefix" type="C" size="255">
+			<default value="Back to "/>
+		</field>
+		<field name="suffix" type="C" size="255"></field>
+		<field name="boldPagename" type="i">
+			<default value="0"/>
+		</field>
+		<field name="wrapDiv" type="i">
+			<default value="0"/>
+		</field>
+	</table>
+</schema>
