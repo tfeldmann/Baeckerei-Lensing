@@ -28,11 +28,17 @@
 		</div>
 		
 		<div id="content">
+		      <div class="sidebar">
+     				<?php
+   						$sidebar = new Area('Seitenleiste');
+   						$sidebar->display($c);
+   				?>
+		      </div>
 				<div class="main">
-					<?php
-						$main_content = new Area('Hauptbereich');
-						$main_content->display($c);
-					?>	
+						<?php
+      						$main_content = new Area('Hauptbereich');
+      						$main_content->display($c);
+      				?>
 				</div>
 		</div>
 		

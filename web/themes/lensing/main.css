@@ -1,30 +1,46 @@
-html, body {
-	background: #E1E1E1 url(images/bg.png) repeat-x;
+body {
+	background-color: #e1e1e1;
+	margin: 0;
+	padding: 0;
+}
+
+#page {
+	background: transparent url(images/bg.png) repeat-x;
 	margin: 0px;
 	font-family: helvetica, arial;
 	line-height: 23px;
 }
 
-#centering-wrapper {
+#page #centering-wrapper {
 	margin: 0 auto;
 	width: 735px;
 	background: transparent url(images/body.png);
 }
 
-#head {
+#page #head {
 	background: transparent url(images/head.png);
 	height: 223px;
 }
 
-#content {
+#page #head .search {
+	
+}
+
+#page #head .nav {
+	position: relative;
+	top: 20px;
+	left: 200px;
+}
+
+#page #content {
 	padding: 0 20px 0 20px;
 }
 
-#content .main {
+#page #content .main {
 	margin: 
 }
 
-#foot {
+#page #foot {
 	background: transparent url(images/foot.png);
 	height: 57px;
 }

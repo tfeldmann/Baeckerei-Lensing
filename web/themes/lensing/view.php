@@ -29,10 +29,7 @@
 		
 		<div id="content">
 				<div class="main">
-					<?php
-						$main_content = new Area('Hauptbereich');
-						$main_content->display($c);
-					?>	
+						<?php print $innerContent?>
 				</div>
 		</div>
 		
