@@ -22,14 +22,28 @@ body {
 	height: 223px;
 }
 
-#page #head .search {
+#page #head .search h1 {
 	
 }
 
 #page #head .nav {
 	position: relative;
-	top: 20px;
+	top: 160px;
 	left: 200px;
+	width: 470px;
+	text-align: right;
+	margin: 0;
+	list-style: none;
+}
+
+#page #head .nav li {
+	margin: 10px;
+	display: inline;
+}
+
+#page #head .nav li a {
+	text-decoration: none;
+	color: gray;
 }
 
 #page #content {

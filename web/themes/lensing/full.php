@@ -17,13 +17,11 @@
         	?>
 			</div>
 			
-			<div class="nav">
-				<?php
-      			$navigation = new Area('Navigation');
-					$navigation->setBlockLimit(1);
-      			$navigation->display($c);
-				?>
-			</div>
+			<?php
+   			$navigation = new Area('Navigation');
+				$navigation->setBlockLimit(1);
+   			$navigation->display($c);
+			?>
 			
 		</div>
 		
