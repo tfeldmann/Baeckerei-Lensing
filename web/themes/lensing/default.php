@@ -1,0 +1,39 @@
+<?php
+defined('C5_EXECUTE') or die(_("Access Denied."));
+$this->inc('elements/header.php');
+?>
+		<div id="head">
+			
+			<div class="search">
+        	<?php
+        		$suche = new Area('Suche');
+        		$suche->setBlockLimit(1);
+        		$suche->display($c);
+        	?>
+			</div>
+			
+			<div class="nav">
+				<?php
+      			$navigation = new Area('Navigation');
+					$navigation->setBlockLimit(1);
+      			$navigation->display($c);
+				?>
+			</div>
+		</div>
+		<div id="content">
+				<div class="sidebar">
+				<?php
+					$sidebar = new Area('Seitenleiste');
+					$sidebar->display($c);
+				?>	
+				</div>
+				<div class="main">
+					<?php
+						$main_content = new Area('Hauptbereich');
+						$main_content->display($c);
+					?>	
+				</div>
+		</div>
+<?php
+$this->inc('elements/footer.php');
+?>
