@@ -1,124 +1,30 @@
-
 html, body {
-	background-color: #ebebeb;
+	background: #E1E1E1 url(images/bg.png) repeat-x;
 	margin: 0px;
 	font-family: helvetica, arial;
 	line-height: 23px;
 }
 
-div#head {
-	background: url(images/head.png) no-repeat;
-	width: 1000px;
-	height: 180px;
-	margin: 0;
+#centering-wrapper {
+	margin: 0 auto;
+	width: 735px;
+	background: transparent url(images/body.png);
 }
 
-div.nav {
-	position: relative;
-	top: 150px;
-	left: 2px;
+#head {
+	background: transparent url(images/head.png);
+	height: 223px;
 }
 
-ul.nav {
-	list-style: none;
-	margin: 0;
-}
-ul.nav li {
-	font-size: 16px;
-	display: inline;
-	margin: 0 8px 0 0;
-}
-ul.nav li a {
-	text-decoration: none;
-	color: black;
-	padding: 8px 18px 18px 18px;
-}
-ul.nav li a:hover, ul.nav li.nav-selected a:hover {
-	background-color: #fff;
-	border-radius: 8px;
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
-}
-ul.nav li.nav-selected a {
-	background-color: #eee;
-	border-radius: 8px;
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
-	font-weight: bold;
+#content {
+	padding: 0 20px 0 20px;
 }
 
-div#head div.search {
-	position: absolute;
-	top: 5px;
-	left: 735px;
-	margin: 0;
-	white-space:nowrap;
-}
-div#head div.search h3 {
-	margin: 0;
-	color: gray;
-	font-size: 12px;
-}
-div#head div.search input[type=text] {
-	border: 1px solid silver;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	font-size: 15px;
-	margin: 0;
-	vertical-align: middle;
+#content .main {
+	margin: 
 }
 
-div#head div.search input[type=submit] {
-	border: 1px solid silver;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	margin: 0;
-	vertical-align: middle;
-}
-
-div#content {
-	font-family: helvetica, arial;
-	line-height: 23px;
-	color: #333;
-	position: relative;
-	left: 29px;
-	margin-bottom: 40px;
-	width: 879px;
-	border-radius: 0px 0px 10px 10px;
-	-moz-border-radius: 0px 0px 10px 10px;
-	-webkit-border-radius: 0px 0px 10px 10px;
-	background-color: white;
-	min-height: 500px;
-	padding: 40px 40px 80px 20px;
-	text-align: justify;
-}
-
-div.content h1 {
-	margin-top: 0;
-}
-div.content p {
-	text-align: justify;
-}
-
-div.main {
-	width: 650px;
-}
-
-div.sidebar {
-	position: absolute;
-	left: 690px;
-	top: 50px;
-	width: 210px;
-	padding: 10px;
-	border-radius: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	background-color: #eee;
-	font-size: 14px;
-}
-div.sidebar h2 {
-	color: gray;
-	text-align: center;
+#foot {
+	background: transparent url(images/foot.png);
+	height: 57px;
 }

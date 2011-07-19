@@ -1,7 +1,10 @@
 <?php
-defined('C5_EXECUTE') or die(_("Access Denied."));
-$this->inc('elements/header.php');
+
+   defined('C5_EXECUTE') or die(_("Access Denied."));
+   $this->inc('elements/header.php');
+   
 ?>
+   <div id="centering-wrapper">
 		<div id="head">
 			
 			<div class="search">
@@ -19,14 +22,10 @@ $this->inc('elements/header.php');
       			$navigation->display($c);
 				?>
 			</div>
+			
 		</div>
+		
 		<div id="content">
-				<div class="sidebar">
-				<?php
-					$sidebar = new Area('Seitenleiste');
-					$sidebar->display($c);
-				?>	
-				</div>
 				<div class="main">
 					<?php
 						$main_content = new Area('Hauptbereich');
@@ -34,6 +33,13 @@ $this->inc('elements/header.php');
 					?>	
 				</div>
 		</div>
+		
+		<div id="foot">
+		   
+		</div>
+   </div>
 <?php
-$this->inc('elements/footer.php');
+
+   $this->inc('elements/footer.php');
+   
 ?>
