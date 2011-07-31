@@ -32,7 +32,7 @@
    						$sidebar->display($c);
    				?>
 		      </div>
-				<div class="main">
+				<div class="main" style="margin-left: 180px;">
 						<?php
       						$main_content = new Area('Hauptbereich');
       						$main_content->display($c);
